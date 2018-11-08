@@ -23,7 +23,8 @@ def contain_a(array)
 
 
   while i < array.length
-    array.each do |word|
+    array.each do |element|
+      element
 
     end
     i += 1
