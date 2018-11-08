@@ -3,7 +3,7 @@ require "pry"
 array1 = ["ruby", "rental", "rooster"]
 array2 = ["ruby", "ostrich", "rooster"]
 
-puts array1[0].split
+array3 = array1[0].split
 
 binding.pry
 def begins_with_r(array)
