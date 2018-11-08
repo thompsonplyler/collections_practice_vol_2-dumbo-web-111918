@@ -11,11 +11,12 @@ result
 
   while i < array.length
     if array[i].split("")[0] != "r"
-      false
+      result = false
       break
     else
-      true
+      result = true
     end
     i += 1
   end
+  result
 end
