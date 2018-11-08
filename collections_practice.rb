@@ -16,7 +16,11 @@ result = false
   result
 end
 
-def contain_a
+def contain_a(array)
+  i = 0 
+  a_array = []
+
+  while i < 
 end
 
 def first_wa
