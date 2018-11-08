@@ -22,7 +22,12 @@ def contain_a(array)
   a_array = []
 
 
-  while i <
+  while i < array.length
+    array.each do |word|
+
+    end
+    i += 1
+  end
 end
 
 def first_wa
