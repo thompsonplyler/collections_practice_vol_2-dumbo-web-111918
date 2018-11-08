@@ -3,8 +3,9 @@ def begins_with_r(array)
   split_array = []
     array.each do |x|
     split_array << x.split
-      if split_array[0] == "r"
+      if split_array[0] != "r"
         result = false
+        break
       else
         result = true
       end
