@@ -7,6 +7,7 @@ array2 = ["ruby", "ostrich", "rooster"]
 
 def begins_with_r(array)
 i=0
+array = ["ruby", "rental", "rooster"]
 
 binding.pry
 
