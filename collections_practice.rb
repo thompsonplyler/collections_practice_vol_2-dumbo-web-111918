@@ -10,8 +10,9 @@ i=0
 
 binding.pry
 
-while i < array.length
-  if array[0].split[""][0]
+  while i < array.length
+    if array[0].split[""][0]
+    end
 
   i += 1
 end
