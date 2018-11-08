@@ -9,7 +9,7 @@ def begins_with_r(array)
 i=0
 
   while i < array.length
-    if array[i].split("")[0] != r
+    if array[i].split("")[0] != "r"
       false
       break
     else
