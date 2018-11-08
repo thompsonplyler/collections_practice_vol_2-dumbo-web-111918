@@ -29,6 +29,7 @@ array.each do |element|
     end
   end
 end
+a_array
 end
 
 def first_wa
