@@ -3,11 +3,18 @@ require "pry"
 array1 = ["ruby", "rental", "rooster"]
 array2 = ["ruby", "ostrich", "rooster"]
 
-array1[0].split("")
+# array1[0].split("") #=> ["r", "u", "b", "y"]
 
-binding.pry
 def begins_with_r(array)
-  result = true
+i=0
+
+while i < array.length
+
+  i += 1
+end
+  array.each do |x|
+    if
+  end
   split_array = []
   i=0
 
