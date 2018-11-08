@@ -43,7 +43,7 @@ def first_wa(array)
     end
     i += 1
   end
-  # return THE FIRST element that begins with the letters "wa"
+  word
 end
 
 def remove_non_strings
