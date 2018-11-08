@@ -32,7 +32,15 @@ end
 a_array
 end
 
-def first_wa
+def first_wa(array)
+  i = 0
+  word = ""
+
+  while i < array.length
+    if (array[0].split("")[0])+(array[0].split("")[1]) == "wa"
+
+    i += 1
+  end
   # return THE FIRST element that begins with the letters "wa"
 end
 
