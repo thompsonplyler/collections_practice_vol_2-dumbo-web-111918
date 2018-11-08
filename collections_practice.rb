@@ -7,8 +7,9 @@ array2 = ["ruby", "ostrich", "rooster"]
 
 def begins_with_r(array)
 i=0
-
+binding.pry
 while i < array.length
+  if array[0].split[""][0]
 
   i += 1
 end
