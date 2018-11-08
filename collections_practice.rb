@@ -7,14 +7,15 @@ array2 = ["ruby", "ostrich", "rooster"]
 
 def begins_with_r(array)
 i=0
-array = ["ruby", "rental", "rooster"]
-
 binding.pry
 
   while i < array.length
-    if array[0].split[""][0]
+    if array[i].split[""][0] != r
+      false
+      break
+    else
+      true
     end
-
-  i += 1
-end
+    i += 1
+  end
 end
