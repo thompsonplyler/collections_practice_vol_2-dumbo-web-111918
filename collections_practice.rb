@@ -17,10 +17,10 @@ result = false
 end
 
 def contain_a(array)
-  i = 0 
+  i = 0
   a_array = []
 
-  while i < 
+  while i <
 end
 
 def first_wa
