@@ -6,7 +6,7 @@ def begins_with_r(array)
       if split_array[0] == "r"
         result = false
       else
-        result = false
+        result = true
       end
     end
 result
