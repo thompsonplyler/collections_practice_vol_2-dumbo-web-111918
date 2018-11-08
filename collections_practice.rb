@@ -7,4 +7,5 @@ def begins_with_r(array)
     else
       true
     end
+  end
 end
