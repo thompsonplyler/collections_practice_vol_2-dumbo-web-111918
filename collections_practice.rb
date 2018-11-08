@@ -1,5 +1,9 @@
 require "pry"
 
+array1 = ["ruby", "rental", "rooster"]
+array2 = ["ruby", "ostrich", "rooster"]
+
+binding.pry
 def begins_with_r(array)
   result = true
   split_array = []
