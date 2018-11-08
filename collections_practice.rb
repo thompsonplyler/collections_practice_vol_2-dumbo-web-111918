@@ -7,6 +7,7 @@ require "pry"
 
 def begins_with_r(array)
 i=0
+result
 
   while i < array.length
     if array[i].split("")[0] != "r"
