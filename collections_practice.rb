@@ -1,7 +1,7 @@
 def begins_with_r(array)
-
+result = true
   array.each do |x|
-    result = true
+    
     split_array = []
 
     split_array << x.split
