@@ -37,8 +37,10 @@ def first_wa(array)
   word = ""
 
   while i < array.length
-    if (array[0].split("")[0])+(array[0].split("")[1]) == "wa"
-
+    if (array[i].split("")[0])+(array[i].split("")[1]) == "wa"
+      word = array[i]
+      break
+    end
     i += 1
   end
   # return THE FIRST element that begins with the letters "wa"
