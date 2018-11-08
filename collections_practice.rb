@@ -4,7 +4,7 @@ def begins_with_r(array)
     array.each do |x|
     split_array << x.split
       if split_array[0] == "r"
-        result = true
+        result = false
       else
         result = false
       end
