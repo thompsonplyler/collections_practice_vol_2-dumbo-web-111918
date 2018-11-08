@@ -21,13 +21,12 @@ def contain_a(array)
   i = 0
   a_array = []
 
-
-  while i < array.length
-    array.each do |element|
-      element
-
+# take apart every word (.split("")). If there is a character == a, add it to a_array
+array.each do |element|
+  element.each do |letter|
+    if letter == "a"
+      a_array << element
     end
-    i += 1
   end
 end
 
