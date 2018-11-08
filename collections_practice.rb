@@ -29,6 +29,7 @@ array.each do |element|
     end
   end
 end
+end
 
 def first_wa
   # return THE FIRST element that begins with the letters "wa"
